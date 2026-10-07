@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    /* max-width: 1250px; */
+
+    padding: 0 40px;
+}
+
+.header1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.block-left {
+    width: 50%;
+    height: 100vh;
+    background: url(/img/maskgroup.png) no-repeat;
+    background-size: cover;
+}
+
+.tt1 {
+    background-color: #156963;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.block-right h1 {
+    font-size: 60px;
+    color: #156963;
+}
+
+.block-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 230px;
+}
+
+.item-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 40px;
+}
+
+.item {
+    padding: 30px;
+    border: 1px solid #E0E0E0;
+}
+
+.item-block2>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.item-block2 button {
+    background: none;
+    border: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.container {
+    padding: 40px 20px;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.baiel {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.baiel img {
+    width: 100%;
+}
+
+.div-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div-right>h4{
+    font-size: 40px;
+}
+.div-right>p{
+    font-size: 16px;
+}
+.talas{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    background:#F3F4F6 ;
+    margin-bottom: 100px;
+}
+.talas-right img{
+    width: 480px;
+   
+}
+/* .talas-right{
+    display: flex;
+    justify-content: end;
+} */
+.talas-left button{
+    display: block;
+    background: none;
+    border: none;
+    background-color: #156963;
+    padding: 5px;
+    color: #E0E0E0;
+}
+.talas-left>h5{
+    font-size: 40px;
+}
+.talas .talas-left{
+    /* display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 150px;
+    
+}  
+
+ .basement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 150px;
+    border-top: 1px solid #156963;
+ }
+
+ .down>h5{
+   font-size:24px;
+   color: #156963;
+   padding: 10px;
+ }
+
+ .down button{
+     display: block;
+    background: none;
+    border: none;
+    background-color: #156963;
+    padding: 5px;
+    color: #FFFFFF;
+ }
+.down{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
